@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sponj.sponj.Search_Result_Screen">
+
+    <RelativeLayout
+        android:id="@+id/Rlv_holderr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00587a">
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="56dp"
+            android:layout_marginStart="56dp"
+            android:text="March 2017"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back_img" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/Rlv_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Rlv_holderr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0sp" />
+</RelativeLayout>

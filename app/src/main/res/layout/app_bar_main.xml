@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sponj.sponj.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00587a"
+
+            android:minHeight="?attr/actionBarSize">
+
+            <RelativeLayout
+                android:id="@+id/Rlv_holder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_below="@+id/toolbar_title"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toEndOf="@+id/imageView11"
+                    android:layout_toRightOf="@+id/imageView11"
+                    app:srcCompat="@drawable/dark_gray" />
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toEndOf="@+id/imageView11"
+                    android:layout_toRightOf="@+id/imageView11"
+                    android:text="03"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="33sp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="22dp"
+                    android:layout_height="20dp"
+
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginRight="11dp"
+                    android:background="@drawable/open_icon" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toEndOf="@+id/toolbar_title"
+                    android:layout_toRightOf="@+id/toolbar_title"
+                    android:text="Monday"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView3"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:layout_marginTop="-4dp"
+                    android:text="March 2017"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_below="@+id/toolbar_title"
+                    android:layout_marginLeft="1.5dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:layout_toRightOf="@+id/imageView3"
+                    app:srcCompat="@drawable/whitedot" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_below="@+id/toolbar_title"
+                    android:layout_marginLeft="1.5dp"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_toRightOf="@+id/imageView2"
+                    app:srcCompat="@drawable/dark_gray" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/back_img" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Rlv_holderr"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="22dp"
+                    android:layout_height="20dp"
+
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginRight="11dp"
+                    android:background="@drawable/open_icon" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@android:color/white"
+                    android:text="March 2017"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_toLeftOf="@+id/button33"
+                    android:layout_toStartOf="@+id/button33"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/calender_white" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/Rlv_holder_people"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button3_poeple"
+                    android:layout_width="22dp"
+                    android:layout_height="20dp"
+
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginRight="11dp"
+                    android:background="@drawable/open_icon" />
+
+                <TextView
+                    android:id="@+id/textView_people"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@android:color/white"
+                    android:text="People"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</android.support.design.widget.CoordinatorLayout>

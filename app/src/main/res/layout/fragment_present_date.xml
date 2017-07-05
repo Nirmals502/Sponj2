@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e0dc"
+    tools:context="fragments.Present_date">
+
+    <!-- TODO: Update blank fragment layout -->
+    <notepad_edittext.line_edittext
+        android:id="@+id/Edttext_line"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#e2e0dc"
+        android:gravity="top|left"
+        android:singleLine="false"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/Lv_lookup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1px"
+        android:visibility="gone" />
+
+</RelativeLayout>
